@@ -7,3 +7,7 @@ exercises, and projects for this year's computer science class.
 
 ### Week 1 – Introduction to Java (September 2026)
 - [Class notes and code](week1.md)
+
+### Programming Project
+- [FarmerRyan.java](FarmerRyan.java)
+- [GetItIntoGear.java](GetItIntoGear.java)

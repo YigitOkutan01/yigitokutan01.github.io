@@ -1,4 +1,3 @@
-# yigitokutan01.github.io
 # My Java Class Portfolio
 
 Hi! I'm Yigit. This website is where I share my class notes, Java code,

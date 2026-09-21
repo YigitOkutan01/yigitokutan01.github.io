@@ -12,4 +12,4 @@ exercises, and projects for this year's computer science class.
 - [FarmerRyan.java](FarmerRyan.java)
 - [GetItIntoGear.java](GetItIntoGear.java)
 - [ShieldTest_WarmUp.java](ShieldTest_WarmUp.java)
-- [SpaceStation.java](SpaceStation.java)
+- [kıllı](SpaceStation.java)

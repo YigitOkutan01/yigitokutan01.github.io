@@ -1,3 +1,8 @@
+# Week 2 – Introduction to Java
+
+[← Back to home](README.md)
+
+
 ## Runestone U1P4
 A class method belongs to the class itself, so you call it by writing the
 class name, a dot, and the method name, like Math.abs(x), without making an

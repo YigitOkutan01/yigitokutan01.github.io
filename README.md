@@ -1,7 +1,6 @@
 # My Java Class Portfolio
 
-Hi! I'm Yigit. This website is where I share my Java codes,
-exercises, and projects for this year's computer science class.
+Hi! I'm Yigit. This website is where I share my Java codes, reflections, exercises, and projects for this year's computer science class.
 
 ### Weekly Notes:
 - [Week 1](week1.md)

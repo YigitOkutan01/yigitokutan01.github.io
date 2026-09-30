@@ -5,8 +5,9 @@ exercises, and projects for this year's computer science class.
 
 ## Contents
 
-### Week 1 – Introduction to Java (September 2026)
-- [Class notes and code](week1.md)
+### Weekly Notes:
+- [Week 1](week1.md)
+- [Week 2](week2.md)
 
 ### Programming Project
 - [FarmerRyan.java](FarmerRyan.java)

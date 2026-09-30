@@ -1,5 +1,4 @@
 # Week 1 – Introduction to Java
-*September 2026*
 
 [← Back to home](README.md)
 

@@ -26,3 +26,14 @@ different information. An instance method is called on an object with a dot,
 like yertle.forward(), and it works on that one object's own data, which is
 why two objects of the same class can give different results from the same
 method.
+
+## Runestone U1P6
+A String is an object that holds text, and you can make one with a literal 
+like "hi" or with new String("hi"). You can join strings with + or +=, but 
+Java goes left to right, so "12" + 4 + 3 gives "1243" unless you use parentheses 
+to do the math first. Each letter has an index starting at 0, so the last letter
+is at length() - 1, and going past that causes an error. You use length() to count 
+letters, substring() to grab part of a string, and indexOf() to find something,
+which gives -1 if it's not there. Strings are immutable, so methods like toLowerCase()
+make a new string you have to save. To compare strings, use equals() or compareTo() 
+instead of ==, and remember capital letters count as different.

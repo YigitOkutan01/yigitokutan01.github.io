@@ -1,0 +1,10 @@
+#BlueJ class context
+#Thu Oct 08 10:47:23 TRT 2026
+comment0.target=project1
+comment1.params=args
+comment1.target=void main(java.lang.String[])
+comment2.target=void u()
+comment3.params=textAdd
+comment3.target=void x(java.lang.String)
+comment4.target=void r()
+numComments=5

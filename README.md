@@ -15,4 +15,4 @@ exercises, and projects for this year's computer science class.
 - [YemekSepeti.java](YemekSepeti.java)
 - [FilamentRecord.java](FilamentRecord.java)
 - [RobotBuild.java](RobotBuild.java)
-- [digitDetective.java] (/digitDetective.java)
+- [digitDetective.java](digitDetective.java)

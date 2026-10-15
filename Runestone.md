@@ -63,3 +63,53 @@ letters, substring() to grab part of a string, and indexOf() to find something,
 which gives -1 if it's not there. Strings are immutable, so methods like toLowerCase()
 make a new string you have to save. To compare strings, use equals() or compareTo() 
 instead of ==, and remember capital letters count as different.
+
+## Runestone U2P1
+An algorithm is a step-by-step process for solving a problem, and it can be written 
+in plain English, pseudocode, or code. Every algorithm is built from three parts: 
+sequencing, selection, and repetition. Sequencing means the steps run one after
+another in order. Selection means the program chooses which steps to run based 
+on a true or false condition, like an if statement. Repetition means some steps
+repeat until a condition changes, like a loop. Combining these three, you can write
+an algorithm for almost any problem.
+
+## Runestone U2P2
+A boolean expression is something that evaluates to true or false. Relational operators
+like ==, !=, <, >, <= and >= compare values, but Java only uses < and > with numbers, 
+not strings. One = assigns a value while two == tests it without changing anything. 
+With primitive types like int, == compares the actual values, but with objects it only
+checks if two variables refer to the same object, which are called aliases. The remainder
+operator % is useful for testing numbers: num % 2 == 0 means even, num % 2 != 0 means odd,
+and num % x == 0 means divisible by x. Don’t use num % 2 == 1 to check for odd numbers,
+because negative odd numbers give -1.
+
+## Runestone U2P3
+An if statement is a selection statement that changes the normal top-to-bottom order of the 
+code. A one-way selection (if) runs its body only when the condition is true and skips it when
+it’s false. A two-way selection (if-else) runs the if body when the condition is true and the 
+else body when it’s false, so you need at least two test cases to check both paths. Always use
+curly braces, because Java ignores indentation and only looks at the braces. Don’t put a semicolon
+after if (condition), and don’t use = instead of == in the condition. Separate if statements are 
+each checked on their own, so a variable changed by one if can affect the next one.
+
+## Runestone U2P4
+Nested if statements are ifs placed inside other ifs, and the inner if is only checked when the outer
+if is true. A multi-way selection (if-else-if) lets you choose between three or more paths, and only 
+the first condition that is true runs. If none are true, the final else runs. Without the else, separate
+ifs can all run, so a value might get overwritten or print more than once, like a score of 93 ending up
+as a “D”. The order of the conditions matters, so check the most specific or highest values first. A 
+dangling else always belongs to the closest if, no matter how it is indented, unless you use curly
+braces to attach it to a different if.
+
+## Runestone U2P5
+Logical operators let you combine boolean expressions. && (and) is true only if both sides are true, 
+|| (or) is true if at least one side is true, and ! (not) flips true to false. In Java, || is inclusive,
+so it’s also true when both sides are true. && is often used to check if a number is in a range, like 
+score >= 0 && score <= 100, while || is often used to catch values that are out of range on either end.
+Java runs ! first, then &&, then ||, unless parentheses change the order. Both && and || use short-circuit
+evaluation: if the left side of && is false, or the left side of || is true, Java skips the right side. 
+This can prevent errors, like dividing by zero. Truth tables show every combination of true and false for an expression.
+
+## Runestone U2P6
+
+## Runestone U2P7

@@ -1,4 +1,4 @@
-### All of my notes of Runestone:
+# All of my notes of Runestone:
 
 ## Runestone U1P1
 An algorithm is a list of steps that solve a problem, one step at a time, and

@@ -121,4 +121,11 @@ Strings with the same text are equal with equals() but not with ==. You can comp
 with == or !=, and putting s != null first in an && avoids a NullPointerException.
 
 ## Runestone U2P7
-A loop repeats code, and a while loop keeps running its body as long as its condition is true. The condition is checked before every iteration, so if it starts out false, the body never runs. Writing a loop takes three steps: initialize the loop variable before the loop, test it in the loop header, and update it at the end of the loop body. Forgetting the update creates an infinite loop that never stops, and using < when you meant <= (or the other way around) causes an off-by-one error, where the loop runs one time too many or too few. Trace tables help you follow a variable’s value through each iteration. While loops are especially useful when you don’t know how many times to repeat, like an input-controlled loop that stops when the user types a sentinel value such as “Bye”. Whenever you notice repeated code, you can usually replace it with a loop.
+A loop repeats code, and a while loop keeps running its body as long as its condition is true. The condition
+is checked before every iteration, so if it starts out false, the body never runs. Writing a loop takes three
+steps: initialize the loop variable before the loop, test it in the loop header, and update it at the end of
+the loop body. Forgetting the update creates an infinite loop that never stops, and using < when you meant <= 
+(or the other way around) causes an off-by-one error, where the loop runs one time too many or too few. Trace
+tables help you follow a variable’s value through each iteration. While loops are especially useful when you 
+don’t know how many times to repeat, like an input-controlled loop that stops when the user types a sentinel
+value such as “Bye”. Whenever you notice repeated code, you can usually replace it with a loop.

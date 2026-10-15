@@ -111,5 +111,6 @@ evaluation: if the left side of && is false, or the left side of || is true, Jav
 This can prevent errors, like dividing by zero. Truth tables show every combination of true and false for an expression.
 
 ## Runestone U2P6
+Two boolean expressions are equivalent if they give the same result in every case, and you can prove this with a truth table. De Morgan’s Laws show how to simplify a negated expression: !(a && b) is the same as !a || !b, and !(a || b) is the same as !a && !b. In other words, move the ! inside and && becomes ||, || becomes &&. To remove a ! from a comparison, flip the sign: == becomes !=, < becomes >=, and > becomes <=. For objects like Strings, == checks if two variables refer to the same object, while equals() checks if they have the same characters in the same order. Using new always creates a separate object, so two new Strings with the same text are equal with equals() but not with ==. You can compare an object to null with == or !=, and putting s != null first in an && avoids a NullPointerException.
 
 ## Runestone U2P7

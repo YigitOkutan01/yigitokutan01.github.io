@@ -114,3 +114,17 @@ Integer.MAX_VALUE and for a max at Integer.MIN_VALUE. The % operator checks divi
 evenness, and % 10 with / 10 lets you get the digits of a number. For strings, a for loop with
 substring(i, i+1) visits every letter to count or reverse them, and a while loop with indexOf 
 is used for find and replace, like changing “cat” to “dog”.
+
+## Runestone U2P5
+A nested loop is a loop inside another loop, and it’s usually used for two dimensions, 
+like printing rows and columns of stars. Every time the outer loop runs once, the inner
+loop starts over and has to finish all of its iterations before the outer loop can move
+on to the next one. With the Turtle, I used an inner loop to draw a shape and an outer 
+loop to repeat it and turn a little each time, which made a snowflake. The outer loop 
+has to run 360 / turnAmount times so the turns add up to 360 and the pattern goes all 
+the way around, like 12 times for a 30 degree turn. To trace a loop, you make a trace 
+table that keeps track of every variable each time through the loop, which helps you 
+find the final values. To count how many times a loop runs, you use largest value - 
+smallest value + 1, and if the loop uses < instead of <=, the largest value is the 
+limit minus 1. For nested loops, you multiply the number of times the outer loop 
+runs by the number of times the inner loop runs, so a 5 by 10 loop prints 50 stars.

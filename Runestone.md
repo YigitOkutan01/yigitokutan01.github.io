@@ -105,3 +105,12 @@ the test. You can count by other amounts too, like i += 2 to go by 2s. Any for l
 rewritten as a while loop and the other way around. With the Turtle, I used a for loop to 
 draw shapes, where the number of turns equals the number of sides and each turn is 360 
 divided by the number of sides, like 90 for a square, 120 for a triangle, and 72 for a pentagon.
+--------------------------------------------------------------------------------------------------------------
+## Runestone U2P4
+Loops with if statements can find a sum, average, min, max, or how often something happens.
+The accumulator pattern sets a variable before the loop, updates it inside, and uses it after, 
+and for an average you cast to (double) so you keep the decimal. For a min you start at 
+Integer.MAX_VALUE and for a max at Integer.MIN_VALUE. The % operator checks divisibility and
+evenness, and % 10 with / 10 lets you get the digits of a number. For strings, a for loop with
+substring(i, i+1) visits every letter to count or reverse them, and a while loop with indexOf 
+is used for find and replace, like changing “cat” to “dog”.

@@ -65,67 +65,43 @@ make a new string you have to save. To compare strings, use equals() or compareT
 instead of ==, and remember capital letters count as different.
 
 ## Runestone U2P1
-An algorithm is a step-by-step process for solving a problem, and it can be written 
-in plain English, pseudocode, or code. Every algorithm is built from three parts: 
-sequencing, selection, and repetition. Sequencing means the steps run one after
-another in order. Selection means the program chooses which steps to run based 
-on a true or false condition, like an if statement. Repetition means some steps
-repeat until a condition changes, like a loop. Combining these three, you can write
-an algorithm for almost any problem.
+An algorithm is a step-by-step process built from three parts: sequencing (steps in order),
+selection (choosing a path with if statements), and repetition (repeating steps with loops).
+Relational operators like ==, !=, <, >, <= and >= compare values and give a boolean true or
+false, but one = assigns a value while two == tests it. For objects, == only checks if two 
+variables refer to the same object. The remainder operator % helps test numbers: num % 2 == 0 
+means even, num % 2 != 0 means odd, and num % x == 0 means divisible by x. An if statement 
+runs its body only when the condition is true, and adding else gives a second path for when 
+it’s false. Don’t put a semicolon after if (condition), and always use curly braces because 
+Java ignores indentation. With else if, you can choose between three or more paths, and only 
+the first true condition runs, so separate ifs without else can overwrite each other or print
+more than once. You can also put ifs inside other ifs, and a dangling else always belongs to 
+the closest if unless you use braces to change it.
 
 ## Runestone U2P2
-A boolean expression is something that evaluates to true or false. Relational operators
-like ==, !=, <, >, <= and >= compare values, but Java only uses < and > with numbers, 
-not strings. One = assigns a value while two == tests it without changing anything. 
-With primitive types like int, == compares the actual values, but with objects it only
-checks if two variables refer to the same object, which are called aliases. The remainder
-operator % is useful for testing numbers: num % 2 == 0 means even, num % 2 != 0 means odd,
-and num % x == 0 means divisible by x. Don’t use num % 2 == 1 to check for odd numbers,
-because negative odd numbers give -1.
+Logical operators combine boolean expressions: && is true only if both sides are true,
+|| is true if at least one side is true (including both), and ! flips true to false. 
+Java runs ! first, then &&, then ||, unless parentheses change the order. Both && and
+|| use short-circuit evaluation, so Java skips the right side when the left side already 
+decides the answer, which can prevent errors like dividing by zero. De Morgan’s Laws say 
+!(a && b) is the same as !a || !b, and !(a || b) is the same as !a && !b, and to remove
+a ! from a comparison you flip the sign, so < becomes >=. Two expressions are equivalent 
+if they give the same result in every case, which you can prove with a truth table. For 
+Strings, == checks if two variables refer to the same object, while equals() checks if 
+they have the same letters, and putting s != null first in an && avoids a NullPointerException.
+A while loop repeats its body as long as its condition is true, but if the condition starts
+out false, the body never runs. To write a loop, initialize the loop variable, test it, and 
+update it. Forgetting the update causes an infinite loop, and mixing up < and <= causes an off-by-one error.
 
 ## Runestone U2P3
-An if statement is a selection statement that changes the normal top-to-bottom order of the 
-code. A one-way selection (if) runs its body only when the condition is true and skips it when
-it’s false. A two-way selection (if-else) runs the if body when the condition is true and the 
-else body when it’s false, so you need at least two test cases to check both paths. Always use
-curly braces, because Java ignores indentation and only looks at the braces. Don’t put a semicolon
-after if (condition), and don’t use = instead of == in the condition. Separate if statements are 
-each checked on their own, so a variable changed by one if can affect the next one.
-
-## Runestone U2P4
-Nested if statements are ifs placed inside other ifs, and the inner if is only checked when the outer
-if is true. A multi-way selection (if-else-if) lets you choose between three or more paths, and only 
-the first condition that is true runs. If none are true, the final else runs. Without the else, separate
-ifs can all run, so a value might get overwritten or print more than once, like a score of 93 ending up
-as a “D”. The order of the conditions matters, so check the most specific or highest values first. A 
-dangling else always belongs to the closest if, no matter how it is indented, unless you use curly
-braces to attach it to a different if.
-
-## Runestone U2P5
-Logical operators let you combine boolean expressions. && (and) is true only if both sides are true, 
-|| (or) is true if at least one side is true, and ! (not) flips true to false. In Java, || is inclusive,
-so it’s also true when both sides are true. && is often used to check if a number is in a range, like 
-score >= 0 && score <= 100, while || is often used to catch values that are out of range on either end.
-Java runs ! first, then &&, then ||, unless parentheses change the order. Both && and || use short-circuit
-evaluation: if the left side of && is false, or the left side of || is true, Java skips the right side. 
-This can prevent errors, like dividing by zero. Truth tables show every combination of true and false for an expression.
-
-## Runestone U2P6
-Two boolean expressions are equivalent if they give the same result in every case, and you can prove 
-this with a truth table. De Morgan’s Laws show how to simplify a negated expression: !(a && b) is the 
-same as !a || !b, and !(a || b) is the same as !a && !b. In other words, move the ! inside and && becomes
-||, || becomes &&. To remove a ! from a comparison, flip the sign: == becomes !=, < becomes >=, and > becomes <=.
-For objects like Strings, == checks if two variables refer to the same object, while equals() checks if 
-they have the same characters in the same order. Using new always creates a separate object, so two new
-Strings with the same text are equal with equals() but not with ==. You can compare an object to null 
-with == or !=, and putting s != null first in an && avoids a NullPointerException.
-
-## Runestone U2P7
-A loop repeats code, and a while loop keeps running its body as long as its condition is true. The condition
-is checked before every iteration, so if it starts out false, the body never runs. Writing a loop takes three
-steps: initialize the loop variable before the loop, test it in the loop header, and update it at the end of
-the loop body. Forgetting the update creates an infinite loop that never stops, and using < when you meant <= 
-(or the other way around) causes an off-by-one error, where the loop runs one time too many or too few. Trace
-tables help you follow a variable’s value through each iteration. While loops are especially useful when you 
-don’t know how many times to repeat, like an input-controlled loop that stops when the user types a sentinel
-value such as “Bye”. Whenever you notice repeated code, you can usually replace it with a loop.
+A for loop is used when you know how many times you want to repeat something, and it puts
+all 3 parts of a loop in one line: the initialization, the Boolean test, and the update, 
+separated by semicolons. The initialization only runs once at the start, then the condition 
+is checked before every iteration, and the update runs after the whole loop body finishes
+and before the condition is checked again. If you start at 0 you usually use <, and if you
+start at 1 you use <=, so both versions run the same number of times. You can also count 
+backwards, like for (int i = 5; i > 0; i--), but you have to change all 3 parts, including
+the test. You can count by other amounts too, like i += 2 to go by 2s. Any for loop can be
+rewritten as a while loop and the other way around. With the Turtle, I used a for loop to 
+draw shapes, where the number of turns equals the number of sides and each turn is 360 
+divided by the number of sides, like 90 for a square, 120 for a triangle, and 72 for a pentagon.

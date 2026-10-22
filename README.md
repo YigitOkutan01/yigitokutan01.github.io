@@ -17,6 +17,7 @@ exercises, and projects for this year's computer science class.
 - [RobotBuild.java](RobotBuild.java)
 - [digitDetective.java](digitDetective.java)
 - [LoopComparison.java](LoopComparison.java)
+- [HalfDiamond.java](HalfDiamond.java)
 
 ### Runestone Notes:
 - [Runestone Notes](Runestone.md)

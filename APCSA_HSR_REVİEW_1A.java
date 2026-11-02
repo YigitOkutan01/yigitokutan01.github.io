@@ -1,4 +1,4 @@
-I WİLL GİVE MYSELF 10/14 POİNTS
+I WİLL GİVE MYSELF 10/14 POİNTS, I couldn't do the 2.q part b and i think i have errors on the last question.
 
 1. Quesition
 A)

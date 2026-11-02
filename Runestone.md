@@ -128,3 +128,17 @@ find the final values. To count how many times a loop runs, you use largest valu
 smallest value + 1, and if the loop uses < instead of <=, the largest value is the 
 limit minus 1. For nested loops, you multiply the number of times the outer loop 
 runs by the number of times the inner loop runs, so a 5 by 10 loop prints 50 stars.
+
+## Runestone U2P6
+If statements run code only when a Boolean expression is true, else runs when it is false,
+and else if gives 3 or more outcomes, like checking if a guess is too high, too low, or correct.
+In an else if chain only the first true branch runs, so a grade program can check > 90, then
+> 80, and so on without retesting the upper limit. Compound expressions join conditions with
+&& (both must be true) or || (at least one is true), and ! flips true and false, like
+!driving && !eating to see if you can text. DeMorgan's Laws distribute a negation:
+!(a && b) is !a || !b, and !(a || b) is !a && !b. Short circuit evaluation skips the second
+condition when the first already decides the answer. Use == to compare numbers but .equals
+to compare strings, like favFood.equals("pizza"), and indexOf(word) >= 0 checks if a word is
+in a string. With % 2 and substring you can get the middle character of a string, one letter
+if the length is odd and two if it is even. Common mistakes are using = instead of ==, putting
+a ; after if (test), and using two ifs when you need an if and else.

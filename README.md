@@ -19,6 +19,7 @@ exercises, and projects for this year's computer science class.
 - [LoopComparison.java](LoopComparison.java)
 - [HalfDiamond.java](HalfDiamond.java)
 - [WorkWithNames.java](WorkWithNames.java)
+- [APCSA_HSR_REVİEW_1A.java](APCSA_HSR_REVİEW_1A.java)
 
 ### Runestone Notes:
 - [Runestone Notes](Runestone.md)
